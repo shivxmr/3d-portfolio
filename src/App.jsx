@@ -2,6 +2,8 @@ import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
+import InfiniteScrollAnimation from "./Infinite Scroll Animation/InfiniteScrollAnimation";
+
 
 const App = () => {
 
@@ -15,9 +17,10 @@ const App = () => {
           </div>
           <About />
           <Experience />
-          <Tech />
+          <InfiniteScrollAnimation />
+          {/* <Tech /> */}
           <Works />
-          <Feedbacks />
+          {/* <Feedbacks /> */}
           <div className='relative z-0'>
             <Contact />
             <StarsCanvas />

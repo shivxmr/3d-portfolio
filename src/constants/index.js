@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  freelance,
+  rv,
+  python,
+  github,
+  java,
 } from "../assets";
 
 export const navLinks = [
@@ -78,10 +83,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -101,14 +102,26 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name: "github",
+    icon: github,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
 ];
 
 const experiences = [
   {
     title: "Freelance Developer",
     company_name: "Freelance",
-    // icon: shopify,
-    // iconBg: "#383E56",
+    icon: freelance,
+    iconBg: "#383E56",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -120,7 +133,7 @@ const experiences = [
   {
     title: "React.js Developer (Internship)",
     company_name: "Magic Quill Media",
-    icon: starbucks,
+    icon: reactjs,
     iconBg: "#383E56",
     date: "Oct 2022 - Dec 2022",
     points: [
@@ -133,8 +146,8 @@ const experiences = [
   {
     title: "Visual Computing Intern",
     company_name: "RV College of Engineering",
-    // icon: tesla,
-    // iconBg: "#E6DEDD",
+    icon: rv,
+    iconBg: "#fff",
     date: "Jan 2021 - Feb 2022",
     points: [
       "Learnt Image Processing using Python.",
@@ -174,7 +187,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "MERN Stack Chat App",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -190,9 +203,17 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "node js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "express js",
+        color: "white-text-gradient",
+      },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/shivxmr/MERN-Chat-App",
   },
   {
     name: "Job IT",
@@ -212,7 +233,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: python,
     source_code_link: "https://github.com/",
   },
   {
