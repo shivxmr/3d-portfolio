@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import { RiWhatsappFill } from 'react-icons/ri'
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -16,6 +18,13 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+
+  const handleButtonClick = () => {
+    const phoneNumber = '+917067173410';
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=Hello Shivam! I wanted to know about ...`;
+    window.open(whatsappUrl, '_blank');
+  };
+
 
   const handleChange = (e) => {
     // const { target } = e;
@@ -82,6 +91,7 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Let's Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact Me</h3>
+        <p className={styles.sectionSubText}>My Email id: shivxmr@gmail.com</p>
 
         <form
           ref={formRef}
@@ -95,7 +105,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What is your good name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -106,7 +116,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What is your email address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -117,17 +127,29 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='What do you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <div className="flex justify-between">
+            <button
+              type='submit'
+              className='bg-tertiary py-3 px-10 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+
+
+            <button
+              type="button"
+              className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-5 rounded-xl outline-none w-fit flex items-center space-x-2"
+              onClick={handleButtonClick}
+            >
+              <RiWhatsappFill className="text-white text-xl mr-2" />
+              Contact on WhatsApp
+            </button>
+          </div>
         </form>
       </motion.div>
 
