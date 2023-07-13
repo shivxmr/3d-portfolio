@@ -18,8 +18,8 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    // const { target } = e;
+    const { name, value } = e.target;
 
     setForm({
       ...form,
@@ -28,33 +28,41 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
+    // prevent default otherwise browser will refresh it - default browser behaviour
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_4ybnci5", // service id
+        "template_2q7xtgd", // template id
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_name: "Shivam Raj",
+          to_email: "shivamraj.me21@rvce.edu.in",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        // EMAIL JS Public KEy
+        "SnwiKTmnafIda8xlW"
       )
+
+      // what happens when above executes - therefore .then will happen after that
       .then(
         () => {
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
 
+
+          // reset form
           setForm({
             name: "",
             email: "",
             message: "",
           });
         },
+
+        // if email was not sent
         (error) => {
           setLoading(false);
           console.error(error);
@@ -72,8 +80,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className={styles.sectionSubText}>Let's Get in touch</p>
+        <h3 className={styles.sectionHeadText}>Contact Me</h3>
 
         <form
           ref={formRef}
