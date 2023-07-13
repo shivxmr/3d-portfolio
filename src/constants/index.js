@@ -28,6 +28,7 @@ import {
   python,
   github,
   java,
+  stockmarket,
 } from "../assets";
 
 export const navLinks = [
@@ -47,7 +48,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Developer",
     icon: web,
   },
   {
@@ -55,7 +56,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Designer",
     icon: backend,
   },
   {
@@ -137,10 +138,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Oct 2022 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Created web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Solved various problems wherever possible.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
@@ -207,34 +208,38 @@ const projects = [
         name: "node js",
         color: "orange-text-gradient",
       },
-      {
-        name: "express js",
-        color: "white-text-gradient",
-      },
+      // {
+      //   name: "express js",
+      //   color: "white-text-gradient",
+      // },
     ],
     image: carrent,
     source_code_link: "https://github.com/shivxmr/MERN-Chat-App",
   },
   {
-    name: "Job IT",
+    name: "Stock Price Predictor",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Predicted the price of the S&P500 stock market index. Created an initial ML Model to estimate accuracy, then built a backtesting engine to more accurately measure accuracy & to further improve the accuracy.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "jupyter",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "yfinance",
         color: "pink-text-gradient",
       },
+      {
+        name: "scikit-learn",
+        color: "orange-text-gradient",
+      },
     ],
-    image: python,
-    source_code_link: "https://github.com/",
+    image: stockmarket,
+    source_code_link: "https://github.com/shivxmr/Stock-Price-Predictor",
   },
   {
     name: "Trip Guide",

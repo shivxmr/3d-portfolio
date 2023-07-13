@@ -1,6 +1,6 @@
 import React from 'react';
 import './InfiniteScrollAnimation.css'
-
+import { styles } from '../styles';
 
 
 // const COLORS = ['#bbf7d0', '#99f6e4', '#bfdbfe', '#ddd6fe', '#f5d0fe', '#fed7aa', '#fee2e2'];
@@ -10,7 +10,6 @@ const TAGS = ['React.js', 'JavaScript', 'TailWind CSS', 'MERN Stack Web Developm
 const DURATION = 55000;
 const ROWS = 5;
 const TAGS_PER_ROW = 12;
-
 
 
 const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
@@ -43,8 +42,9 @@ export default function InfiniteScrollAnimation() {
   return (
     <div className='app'>
       <header>
-        <h1>My Skills Section</h1>
-        <p>Constantly learning new skills!</p>
+        <h2 className={`${styles.sectionHeadText}`}>My Tech Stack</h2>
+        {/* <h2 className={`${styles.sectionHeadText} `}>Projects</h2> */}
+        <p className={`${styles.sectionSubText} `}>Constantly learning new skills!</p>
       </header>
       <div className='tag-list'>
         {[...new Array(ROWS)].map((_, i) => (

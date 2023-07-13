@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
 body {
-  background: #1e293b;
+  background: #1d1836;
   color: #f8fafc;
 }
 
@@ -47,6 +47,7 @@ header p {
   background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+
   font-family: Franklin Gothic;
   font-size: larger;
   font-weight: bold;
@@ -62,9 +63,13 @@ header p {
   position: relative;
   padding: 1.5rem 0;
   overflow: hidden;
+  background-color: #1d1836;
+  /* background: #1d1836; */
 }
 
 .loop-slider .inner {
+  /* background: #1d1836; */
+
   font-family: "Courier";
   display: flex;
   width: max-content;
@@ -82,6 +87,7 @@ header p {
   color: #e2e8f0;
   font-size: 0.9rem;
   background-color: #334155;
+  /* background: #1d1836; */
   border-radius: 0.4rem;
   padding: 0.7rem 1rem;
   margin-right: 1rem;
