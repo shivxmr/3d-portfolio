@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
-body {
+/* body {
   background: #1d1836;
   color: #f8fafc;
-}
+} */
 
 .app {
   min-width: 100vw;
@@ -63,7 +63,7 @@ header p {
   position: relative;
   padding: 1.5rem 0;
   overflow: hidden;
-  background-color: #1d1836;
+  background-color: #050816;
   /* background: #1d1836; */
 }
 
@@ -104,10 +104,10 @@ header p {
   pointer-events: none;
   background: linear-gradient(
     90deg,
-    #1e293b,
+    #050816,
     transparent 30%,
     transparent 70%,
-    #1e293b
+    #050816
   );
   position: absolute;
   inset: 0;
