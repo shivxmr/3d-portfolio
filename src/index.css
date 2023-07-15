@@ -11,7 +11,8 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
-  overflow-x: hidden;
+  /* The horizontal scrolling is caused by Infinite Scroll Animation. To remove that you can uncomment below line of code */
+  /* overflow-x: hidden; */
 }
 
 .hash-span {
