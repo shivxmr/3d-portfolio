@@ -2,8 +2,8 @@ import React from 'react'
 
 const Card = () => {
     return (
-        <div className='flex justify-center'>
-            <div className="ml-2 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div className='flex flex-wrap justify-center mt-9'>
+            <div className="ml-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-auto px-2 mb-4 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Programming</h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
                     <ul>
@@ -15,7 +15,7 @@ const Card = () => {
                     </ul>
                 </p>
             </div>
-            <div className="ml-2 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div className="ml-3 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-auto px-2 mb-4 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Frameworks & Libraries</h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
                     <ul>
@@ -29,7 +29,7 @@ const Card = () => {
                     </ul>
                 </p>
             </div>
-            <div className="ml-2 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div className="ml-3 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-auto px-2 mb-4 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Other Technical Skills</h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
                     <ul>
@@ -43,7 +43,7 @@ const Card = () => {
                     </ul>
                 </p>
             </div>
-            <div className="ml-2 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div className="ml-3 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-auto px-2 mb-4 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Financial Acumen</h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
                     <ul>
@@ -53,7 +53,7 @@ const Card = () => {
                     </ul>
                 </p>
             </div>
-            <div className="ml-2 mr-3 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div className="ml-3 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-auto px-2 mb-4 mr-4 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Areas of Interest</h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
                     <ul>
