@@ -1,6 +1,6 @@
 import React from 'react';
 import './InfiniteScrollAnimation.css'
-import { styles } from '../styles';
+import { styles } from '../../styles';
 
 
 // const COLORS = ['#bbf7d0', '#99f6e4', '#bfdbfe', '#ddd6fe', '#f5d0fe', '#fed7aa', '#fee2e2'];
@@ -43,8 +43,7 @@ export default function InfiniteScrollAnimation() {
     <div className='app'>
       <header>
         <h2 className={`${styles.sectionHeadText}`}>My Tech Stack</h2>
-        {/* <h2 className={`${styles.sectionHeadText} `}>Projects</h2> */}
-        <p className={`${styles.sectionSubText} `}>Constantly learning new skills!</p>
+        <span className={`${styles.sectionSubText} `}>Constantly learning new skills</span>
       </header>
       <div className='tag-list'>
         {[...new Array(ROWS)].map((_, i) => (

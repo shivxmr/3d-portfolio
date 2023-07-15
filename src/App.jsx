@@ -2,7 +2,8 @@ import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
-import InfiniteScrollAnimation from "./Infinite Scroll Animation/InfiniteScrollAnimation";
+import InfiniteScrollAnimation from "./components/Infinite Scroll Animation/InfiniteScrollAnimation";
+import Card from "./components/Card";
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <About />
           <Experience />
           <InfiniteScrollAnimation />
+          <Card />
           {/* <Tech /> */}
           <Works />
           {/* <Feedbacks /> */}

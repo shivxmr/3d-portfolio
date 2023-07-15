@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
-/* body {
-  background: #1d1836;
-  color: #f8fafc;
-} */
-
 .app {
   min-width: 100vw;
   min-height: 100vh;
@@ -12,6 +7,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 header {
@@ -54,7 +50,7 @@ header p {
 }
 
 .tag-list {
-  width: 50rem;
+  width: 70%;
   max-width: 90vw;
   display: flex;
   flex-shrink: 0;
