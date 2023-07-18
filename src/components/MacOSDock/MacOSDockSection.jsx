@@ -8,7 +8,7 @@ function MacOSDockSection() {
       <div className="flex flex-col w-full items-center justify-end">
         <div className="p-48 inline sm:hidden">
           <h1 className="font-spaceMono  text-xl w-60 text-center text-spotifyWhite">
-            THIS ANIMATION CAN BE PROPERLY ENJOYED WITH A HOVERING MOUSE!
+            The below animation can be properly enjoyed on hovering with a mouse! This website is optimized for desktops and laptops. Please visit on a desktop or laptop for the best experience.
           </h1>
         </div>
         <Dock />
