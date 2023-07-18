@@ -74,7 +74,7 @@ const Works = () => {
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         {/* <h2 className={`${styles.sectionHeadText}`}>Projects.</h2> */}
-        <div className="text-7xl font-bold mt-2 mb-6">
+        <div className=" mt-2 mb-6">
           <AnimatedText text={'Projects'} />
         </div>
       </motion.div>
