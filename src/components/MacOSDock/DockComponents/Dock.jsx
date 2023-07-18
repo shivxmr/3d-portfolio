@@ -53,13 +53,13 @@ export default function Dock() {
                 {/* <li className="self-center" aria-hidden="true">
                   <hr className="!mx-2 block h-10 w-px border-none bg-macOSBorder" />
                 </li> */}
-                <DockItem
+                {/* <DockItem
                   onClick={(e) =>
                     openLink(e, 'https://www.facebook.com/')
                   }
                 >
                   <DockIcon name="Facebook" />
-                </DockItem>
+                </DockItem> */}
                 <DockItem
                   onClick={(e) =>
                     openLink(e, 'https://github.com/shivxmr/')
@@ -72,7 +72,21 @@ export default function Dock() {
                     openLink(e, 'https://leetcode.com/shivxmr/')
                   }
                 >
-                  <DockIcon name="Github" />
+                  <DockIcon name="LeetCode" />
+                </DockItem>
+                <DockItem
+                  onClick={(e) =>
+                    openLink(e, 'https://twitter.com/shivxmr/')
+                  }
+                >
+                  <DockIcon name="Twitter" />
+                </DockItem>
+                <DockItem
+                  onClick={(e) =>
+                    openLink(e, 'https://instagram.com/shivxmr/')
+                  }
+                >
+                  <DockIcon name="Instagram" />
                 </DockItem>
               </ul>
             </nav>
