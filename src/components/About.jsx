@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import AnimatedText from "./AnimatedText/AnimatedText";
 
 const ServiceCard = ({ index, title, icon }) => (
   <div className='xs:w-[250px] w-full'>
@@ -40,7 +41,10 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        {/* <h2 className={styles.sectionHeadText}>Overview.</h2> */}
+        <div className="text-7xl font-bold ">
+          <AnimatedText text={'Overview'} />
+        </div>
       </motion.div>
 
       <motion.p

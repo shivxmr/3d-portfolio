@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import AnimatedText from "./AnimatedText/AnimatedText";
 
 const ProjectCard = ({
   index,
@@ -72,7 +73,10 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        {/* <h2 className={`${styles.sectionHeadText}`}>Projects.</h2> */}
+        <div className="text-7xl font-bold ">
+          <AnimatedText text={'Projects'} />
+        </div>
       </motion.div>
 
       <div className='w-full flex'>

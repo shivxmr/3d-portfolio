@@ -2,6 +2,8 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
+import AnimatedText from "./AnimatedText/AnimatedText";
+
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -90,7 +92,10 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Let's Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact Me</h3>
+        {/* <h3 className={styles.sectionHeadText}>Contact Me</h3> */}
+        <div className="text-7xl font-bold ">
+          <AnimatedText text={'Contact Me'} />
+        </div>
         <p className={styles.sectionSubText}>My Email id: shivxmr@gmail.com</p>
 
         <form
