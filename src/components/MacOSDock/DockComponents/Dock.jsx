@@ -43,12 +43,12 @@ export default function Dock() {
               onMouseOut={() => setIsHovered(false)}
             >
               <ul className="flex h-dockHeight items-end justify-center space-x-3">
-                <div className="hidden h-dockHeight items-end justify-center space-x-3 sm:flex">
+                {/* <div className="hidden h-dockHeight items-end justify-center space-x-3 sm:flex">
                   {dockItemsDesktop}
                 </div>
                 <div className="flex h-dockHeight items-end justify-center space-x-3 sm:hidden">
                   {dockItemsMobile}
-                </div>
+                </div> */}
 
                 {/* <li className="self-center" aria-hidden="true">
                   <hr className="!mx-2 block h-10 w-px border-none bg-macOSBorder" />
@@ -60,6 +60,13 @@ export default function Dock() {
                 >
                   <DockIcon name="Facebook" />
                 </DockItem> */}
+                <DockItem
+                  onClick={(e) =>
+                    openLink(e, 'https://linkedin.com/in/shivxmr/')
+                  }
+                >
+                  <DockIcon name="LinkedIn" />
+                </DockItem>
                 <DockItem
                   onClick={(e) =>
                     openLink(e, 'https://github.com/shivxmr/')
