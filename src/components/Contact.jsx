@@ -93,7 +93,7 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Let's Get in touch</p>
         {/* <h3 className={styles.sectionHeadText}>Contact Me</h3> */}
-        <div >
+        <div className="text-4xl" >
           <AnimatedText text={'Contact Me'} />
         </div>
         <p className={styles.sectionSubText}>My Email id: shivxmr@gmail.com</p>

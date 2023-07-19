@@ -44,7 +44,7 @@ export default function InfiniteScrollAnimation() {
     <div className='app'>
       <header>
         {/* <h2 className={`${styles.sectionHeadText}`}>My Tech Stack</h2> */}
-        <div className="mb-4">
+        <div className="mb-4 text-4xl">
           <AnimatedText text={'My Tech Stack'} />
         </div>
         <span className={`${styles.sectionSubText} `}>Constantly learning new skills</span>

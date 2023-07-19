@@ -67,7 +67,7 @@ const Experience = () => {
         {/* <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Experience.
         </h2> */}
-        <div className="flex justify-center mt-2">
+        <div className="flex justify-center text-4xl mt-2">
           <AnimatedText text={'Work Experience'} />
         </div>
       </motion.div>

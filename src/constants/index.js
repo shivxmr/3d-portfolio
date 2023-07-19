@@ -40,10 +40,18 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
+  // {
+  //   id: "works",
+  //   title: "Experience",
+  // },
   {
     id: "contact",
     title: "Contact",
   },
+  // {
+  //   id: "socials",
+  //   title: "Socials",
+  // },
 ];
 
 const services = [
