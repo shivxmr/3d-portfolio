@@ -10,7 +10,8 @@ const Card = () => {
             <CardItem
                 heading='Frameworks & Libraries'
                 items={[
-                    'React.js',
+                    'React JS',
+                    'Next JS',
                     'Tailwind CSS',
                     'Node.js',
                     'Express',
@@ -22,13 +23,21 @@ const Card = () => {
             <CardItem
                 heading='Other Technical Skills'
                 items={[
-                    'Data Structures and Algorithms',
-                    'DBMS (MySQL & MongoDB)',
-                    'Object-Oriented Programming (OOP)',
+                    'Data Structures',
+                    'Algorithms',
                     'Git',
                     'GitHub',
                     'Postman',
                     'Notion',
+                ]}
+            />
+            <CardItem
+                heading='CS Subjects'
+                items={[
+                    'DBMS (MySQL & MongoDB)',
+                    'Object-Oriented Programming (OOP)',
+                    'Operating Systems',
+                    'Computer Networks',
                 ]}
             />
             <CardItem
