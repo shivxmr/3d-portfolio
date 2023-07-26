@@ -11,6 +11,15 @@ module.exports = {
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
+
+        macOSBg: "#0D1117",
+
+        spotifyBlack: "#121212",
+
+        twitterDim: "#15202B",
+      },
+      fontFamily: {
+        spaceMono: ["Space Mono", "monospace"],
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
