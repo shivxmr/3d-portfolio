@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react';
 const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 export default function AnimazingText() {
-  const [hackedText, setHackedText] = useState('SHIVAM');
-  const textValue = 'SHIVAM';
+  const [hackedText, setHackedText] = useState('SHIVAM RAJ');
+  const textValue = 'SHIVAM RAJ';
 
   useEffect(() => {
     let interval = null;
