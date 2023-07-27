@@ -5,7 +5,7 @@ import AnimatedText from '../AnimatedText/AnimatedText.jsx';
 
 function MacOSDockSection() {
   return (
-    <Section color={'bg-macOSBg'} align={'items-end'}>
+    <Section align={'items-end'}>
       <div className="flex flex-col w-full items-center justify-end">
         <div className="text-4xl md:mb-32 lg:mb-32 xl:mb-32">
           <AnimatedText text={'Social Profiles'} />
