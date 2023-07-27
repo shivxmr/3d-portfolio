@@ -32,7 +32,7 @@ export default function Preloader() {
         }}
       >
         <motion.div
-          className="h-full w-full bg-macOSBg flex items-center justify-center"
+          className="h-full w-full bg-primary flex items-center justify-center"
           initial={{ y: 0 }}
           animate={{
             y: viewportHeight,
