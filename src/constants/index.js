@@ -31,6 +31,7 @@ import {
   stockmarket,
   animazing,
   chat,
+  summarize,
 } from "../assets";
 
 export const navLinks = [
@@ -222,6 +223,32 @@ const projects = [
     image: animazing,
     source_code_link: "https://shivxmr-animazing.netlify.app/",
     deployment_link: "https://shivxmr-animazing.netlify.app",
+  },
+  {
+    name: "SUMZ - Summarize Articles with OpenAI GPT-4",
+    description:
+      "Simplify your reading with Summize, an open-source article summarizer that transforms lengthy articles into clear and concise summaries.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "open-source",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: summarize,
+    source_code_link: "https://github.com/shivxmr/ai-summarizer",
+    deployment_link: "https://shivxmr-ai-summarizer.netlify.app/",
   },
   {
     name: "MERN Stack Chat App",

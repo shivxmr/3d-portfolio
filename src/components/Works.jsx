@@ -65,7 +65,7 @@ const ProjectCard = ({
           ))}
         </div>
 
-        {/* Conditional rendering for deployment link 
+        {/* Conditional rendering for deployment link. 
         Means deployment link will be shown only for those cards where deployment_link has been added in */}
         {deployment_link && (
           <div className="flex justify-center items-center mt-3">

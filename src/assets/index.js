@@ -38,8 +38,10 @@ import tripguide from "./tripguide.png";
 import stockmarket from "./stockmarket.jpeg";
 import animazing from "./animazing.png";
 import chat from "./chat.png";
+import summarize from "./summarize.png";
 
 export {
+  summarize,
   animazing,
   chat,
   stockmarket,
