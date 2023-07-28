@@ -30,6 +30,7 @@ import {
   java,
   stockmarket,
   animazing,
+  chat,
 } from "../assets";
 
 export const navLinks = [
@@ -205,10 +206,10 @@ const projects = [
         name: "react",
         color: "blue-text-gradient",
       },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
+      // {
+      //   name: "javascript",
+      //   color: "green-text-gradient",
+      // },
       {
         name: "tailwind",
         color: "pink-text-gradient",
@@ -224,7 +225,7 @@ const projects = [
   {
     name: "MERN Stack Chat App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A dynamic chat application developed using the MERN stack and Socket.io. With robust features like authentication, JWT integration, and Bcrypt.js encryption, this app delivers secure and real-time communication.",
     tags: [
       {
         name: "react",
@@ -247,7 +248,7 @@ const projects = [
       //   color: "white-text-gradient",
       // },
     ],
-    image: carrent,
+    image: chat,
     source_code_link: "https://github.com/shivxmr/MERN-Chat-App",
   },
   {

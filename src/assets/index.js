@@ -37,9 +37,11 @@ import tripguide from "./tripguide.png";
 
 import stockmarket from "./stockmarket.jpeg";
 import animazing from "./animazing.png";
+import chat from "./chat.png";
 
 export {
   animazing,
+  chat,
   stockmarket,
   logo,
   backend,
