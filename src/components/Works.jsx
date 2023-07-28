@@ -28,6 +28,7 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
+        {/* image */}
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
@@ -49,11 +50,13 @@ const ProjectCard = ({
           </div>
         </div>
 
+        {/* Name and description */}
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
+        {/* Tag */}
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
@@ -83,6 +86,10 @@ const ProjectCard = ({
     </motion.div>
   );
 };
+
+
+// Only 4 cards are shown in MOBILE VIEW. If I add more projects in index.js file, then they show up in DESKTOP VIEW but not in MOBILE VIEW.
+// That is till 4 projects it supports in mobile view. 
 
 const Works = () => {
   return (
@@ -117,4 +124,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
