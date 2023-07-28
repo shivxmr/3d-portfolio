@@ -29,6 +29,7 @@ import {
   github,
   java,
   stockmarket,
+  animazing,
 } from "../assets";
 
 export const navLinks = [
@@ -195,6 +196,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Animazing - Animation Showcase",
+    description:
+      "This project was created to showcase my animation and front-end skills. The colors, animations, and transitions are inspired by some of the most well used software, applications and websites.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: animazing,
+    source_code_link: "https://shivxmr-animazing.netlify.app/",
+  },
   {
     name: "MERN Stack Chat App",
     description:

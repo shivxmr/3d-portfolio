@@ -36,8 +36,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import stockmarket from "./stockmarket.jpeg";
+import animazing from "./animazing.png";
 
 export {
+  animazing,
   stockmarket,
   logo,
   backend,
