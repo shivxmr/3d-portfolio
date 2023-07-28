@@ -225,7 +225,7 @@ const projects = [
     deployment_link: "https://shivxmr-animazing.netlify.app",
   },
   {
-    name: "SUMZ - Summarize Articles with OpenAI GPT-4",
+    name: "SUMZ - Summarize Articles",
     description:
       "Simplify your reading with Summize, an open-source article summarizer that transforms lengthy articles into clear and concise summaries.",
     tags: [
