@@ -16,6 +16,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  deployment_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -62,6 +63,17 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
+        </div>
+
+        <div className='mt-4'>
+          <a
+            href={deployment_link}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-primary text-[14px] hover:underline'
+          >
+            Deployment Link
+          </a>
         </div>
       </div>
     </motion.div>

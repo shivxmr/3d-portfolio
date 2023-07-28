@@ -11,6 +11,8 @@ import Preloader from "./components/Preloader/Preloader";
 
 const App = () => {
 
+  // this is for the preloader
+
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {

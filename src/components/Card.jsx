@@ -89,6 +89,7 @@ const CardItem = ({ heading, items }) => {
               background-position: 0% 50%;
             }
           }
+          
  .glazing-strip {
             position: absolute;
             top: -6px;
@@ -123,7 +124,7 @@ const CardItem = ({ heading, items }) => {
             <div className='gradient-border glazing-strip rounded-lg'></div>
             {/* <div className='glazing-strip'></div> */}
 
-            <h5 className='mb-2 text-2xl font-bold tracking-tight text-white dark:text-gray-900'>
+            <h5 className='mb-2 text-2xl font-bold  text-white dark:text-gray-900'>
                 {heading}
             </h5>
             <p className='font-normal text-white dark:text-gray-800'>

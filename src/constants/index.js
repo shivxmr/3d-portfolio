@@ -221,6 +221,7 @@ const projects = [
     ],
     image: animazing,
     source_code_link: "https://shivxmr-animazing.netlify.app/",
+    deployment_link: "https://shivxmr-animazing.netlify.app",
   },
   {
     name: "MERN Stack Chat App",
