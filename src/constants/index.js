@@ -198,7 +198,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Animazing - Animation Showcase",
+    name: "Animazing - Frontend Animation Showcase",
     description:
       "This project was created to showcase my animation and front-end skills. The colors, animations, and transitions are inspired by some of the most well used software, applications and websites.",
     tags: [
