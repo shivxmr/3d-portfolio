@@ -16,11 +16,11 @@ const MacOSDockSection = () => {
           </div>
 
           {/* For mobiles where this animation is not visible, please visit on a desktop or laptop for the best experience. */}
-          <div className="p-48 inline sm:hidden">
+          {/* <div className="p-48 inline sm:hidden">
             <h1 className="font-spaceMono text-xl w-60 text-center text-spotifyWhite">
               <AnimatedText text={'Social Profiles'} />
             </h1>
-          </div>
+          </div> */}
 
           <div className="sm:mt-1 xs:mt-1 2xs:mt-1">
             <Dock />
