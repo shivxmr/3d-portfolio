@@ -6,36 +6,33 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 import InfiniteScrollAnimation from "./components/Infinite Scroll Animation/InfiniteScrollAnimation";
 import Card from "./components/Card";
 import MacOSDockSection from "./components/MacOSDock/MacOSDockSection";
-import Preloader from "./components/Preloader/Preloader";
+// import Preloader from "./components/Preloader/Preloader";
 
 
 const App = () => {
 
   // this is for the preloader
 
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 5000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 5000);
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
-  function preloaderHandler() {
-    if (isLoading) {
-      return <Preloader />;
-    }
-  }
+  // function preloaderHandler() {
+  //   if (isLoading) {
+  //     return <Preloader />;
+  //   }
+  // }
 
   return (
     <>
       <BrowserRouter>
-        <div className="z-50">
-          {preloaderHandler()}
-        </div>
-
+        {/* {preloaderHandler()} */}
         <div className='relative z-0 bg-primary'>
           <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
             <Navbar />
