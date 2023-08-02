@@ -10,14 +10,14 @@ const Card = () => {
             <CardItem
                 heading='Frameworks & Libraries'
                 items={[
-                    'React JS',
                     'Next JS',
+                    'React JS',
                     'Tailwind CSS',
                     'Node.js',
                     'Express',
+                    'Shad CN',
                     'Framer Motion',
-                    'Material UI / Chakra UI',
-                    'Bootstrap',
+                    'Material UI / Chakra UI / Bootstrap ',
                 ]}
             />
             <CardItem
