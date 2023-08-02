@@ -5,7 +5,7 @@ const Card = () => {
         <div className='flex flex-wrap xl:mt-12 justify-center mt-10'>
             <CardItem
                 heading='Programming'
-                items={['Java', 'Python', 'JavaScript', 'HTML', 'CSS']}
+                items={['TypeScript', 'JavaScript', 'Java', 'Python', 'HTML', 'CSS']}
             />
             <CardItem
                 heading='Frameworks & Libraries'
@@ -15,7 +15,7 @@ const Card = () => {
                     'Tailwind CSS',
                     'Node.js',
                     'Express',
-                    'Shad CN',
+                    'Shadcn UI',
                     'Framer Motion',
                     'Material UI / Chakra UI / Bootstrap ',
                 ]}
