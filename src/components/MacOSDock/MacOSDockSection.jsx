@@ -11,7 +11,7 @@ const MacOSDockSection = () => {
     <>
       <Section align={'items-end'}>
         <div className="flex flex-col w-full items-center justify-end">
-          <div className="text-4xl md:mb-32 lg:mb-32 xl:mb-32">
+          <div className="text-4xl md:mb-32 lg:mb-32 xl:mb-32 xs:mb-5 sm:mb-6">
             <AnimatedText text={'Social Profiles'} />
           </div>
 
