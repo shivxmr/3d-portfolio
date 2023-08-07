@@ -22,7 +22,7 @@ const MacOSDockSection = () => {
             </h1>
           </div> */}
 
-          <div className="sm:mt-1 xs:mt-1 2xs:mt-1">
+          <div className="sm:mt-1 xs:mt-1 2xs:mt-1 ">
             <Dock />
           </div>
         </div>
