@@ -61,7 +61,7 @@ const Card = () => {
 
 const CardItem = ({ heading, items }) => {
     return (
-        <div className='relative ml-3 mr-3 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-auto px-2 mb-6 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105'>
+        <div className='relative ml-3 mr-3 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-auto px-2 mb-6 block max-w-sm p-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105'>
             <style>
                 {`
           .gradient-border {
@@ -127,10 +127,10 @@ const CardItem = ({ heading, items }) => {
             <div className='gradient-border glazing-strip rounded-lg'></div>
             {/* <div className='glazing-strip'></div> */}
 
-            <h5 className='mb-2 text-2xl font-bold  text-white dark:text-gray-900'>
+            <h5 className='mb-2 text-2xl font-bold text-black  dark:text-gray-900'>
                 {heading}
             </h5>
-            <p className='font-normal text-white dark:text-gray-800'>
+            <p className=' text-white font-bold dark:text-gray-800'>
                 <ul>
                     {items.map((item, index) => (
                         <li key={index}>{item}</li>
