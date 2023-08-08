@@ -10,8 +10,8 @@ const MacOSDockSection = () => {
   return (
     <>
       <Section align={'items-end'}>
-        <div className="flex flex-col w-full items-center justify-end">
-          <div className="text-4xl md:mb-32 lg:mb-32 xl:mb-32 xs:mb-5 sm:mb-6">
+        <div className="flex flex-col w-full items-center">
+          <div className="text-4xl mb-24 sm:mb-24 md:mb-36 lg:mb-40 xl:mb-48 2xl:mb-52">
             <AnimatedText text={'Social Profiles'} />
           </div>
 
@@ -22,7 +22,7 @@ const MacOSDockSection = () => {
             </h1>
           </div> */}
 
-          <div className="sm:mt-1 xs:mt-1 2xs:mt-1 ">
+          <div className="mb-12">
             <Dock />
           </div>
         </div>
