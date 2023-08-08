@@ -130,7 +130,7 @@ const CardItem = ({ heading, items }) => {
             <h5 className='mb-2 text-2xl font-bold text-black  dark:text-gray-900'>
                 {heading}
             </h5>
-            <p className=' text-white font-bold dark:text-gray-800'>
+            <p className=' text-white font-bold'>
                 <ul>
                     {items.map((item, index) => (
                         <li key={index}>{item}</li>
