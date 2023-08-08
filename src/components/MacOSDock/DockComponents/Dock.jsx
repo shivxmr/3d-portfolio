@@ -76,17 +76,17 @@ export default function Dock() {
                 </DockItem>
                 <DockItem
                   onClick={(e) =>
-                    openLink(e, 'https://leetcode.com/shivxmr/')
-                  }
-                >
-                  <DockIcon name="LeetCode" />
-                </DockItem>
-                <DockItem
-                  onClick={(e) =>
                     openLink(e, 'https://twitter.com/shivxmr/')
                   }
                 >
                   <DockIcon name="Twitter" />
+                </DockItem>
+                <DockItem
+                  onClick={(e) =>
+                    openLink(e, 'https://leetcode.com/shivxmr/')
+                  }
+                >
+                  <DockIcon name="LeetCode" />
                 </DockItem>
                 <DockItem
                   onClick={(e) =>
