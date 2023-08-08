@@ -4,8 +4,8 @@ const Card = () => {
     return (
         <div className='flex flex-wrap xl:mt-12 justify-center mt-10'>
             <CardItem
-                heading='Programming'
-                items={['TypeScript', 'JavaScript', 'Java', 'Python', 'HTML', 'CSS']}
+                heading='Programming Languages'
+                items={['TypeScript', 'JavaScript', 'Java', 'Python']}
             />
             <CardItem
                 heading='Frameworks & Libraries'
@@ -13,45 +13,48 @@ const Card = () => {
                     'Next JS',
                     'React JS',
                     'Tailwind CSS',
-                    'Node.js',
+                    'Node JS',
                     'Express',
-                    'Shadcn UI',
                     'Framer Motion',
+                    'Shadcn UI',
                     'Material UI / Chakra UI / Bootstrap ',
                 ]}
             />
             <CardItem
-                heading='Other Technical Skills'
+                heading='CS Fundamentals'
                 items={[
                     'Data Structures',
                     'Algorithms',
-                    'Git',
-                    'GitHub',
-                    'Postman',
-                    'Notion',
+                    'Operating Systems',
+                    'DBMS',
+                    'Object Oriented Programming',
+                    'Computer Networks',
                 ]}
             />
             <CardItem
-                heading='CS Subjects'
+                heading='Version Control and Tools'
                 items={[
-                    'DBMS (MySQL & MongoDB)',
-                    'Object-Oriented Programming (OOP)',
-                    'Operating Systems',
-                    'Computer Networks',
+                    'Git',
+                    'GitHub',
+                    'GitLab',
+                    'VS Code',
+                    'Notion',
                 ]}
             />
             <CardItem
                 heading='Financial Acumen'
                 items={[
-                    'Fundamental & Technical Analysis',
+                    'Fundamental Analysis',
+                    'Technical Analysis',
                     'Trading Strategies',
                     'Financial Modeling',
+                    'Investments',
                 ]}
             />
-            <CardItem
+            {/* <CardItem
                 heading='Areas of Interest'
                 items={['Problem Solving', 'Software Development', 'DevOps', 'Investments']}
-            />
+            /> */}
         </div>
     );
 };
