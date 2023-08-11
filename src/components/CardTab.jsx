@@ -60,9 +60,9 @@ const CardTab = () => {
     ];
 
     return (
-        <div>
-            <Tabs value="html" className='mt-10'>
-                <TabsHeader>
+        <div className="max-w-screen-xl mx-auto mt-10 p-6 ">
+            <Tabs value="programming" className='mt-10'>
+                <TabsHeader className="flex flex-wrap justify-center">
                     {data.map(({ label, value }) => (
                         <Tab key={value} value={value} className='font-bold'>
                             {label}
@@ -70,11 +70,18 @@ const CardTab = () => {
                     ))}
                 </TabsHeader>
                 <TabsBody
+                    // animate={{
+                    //     initial: { y: 250 },
+                    //     mount: { y: 0 },
+                    //     unmount: { y: 250 },
+                    // }}
                     animate={{
-                        initial: { y: 250 },
-                        mount: { y: 0 },
-                        unmount: { y: 250 },
+                        initial: { opacity: 0, y: -250 },
+                        mount: { opacity: 1, y: 0 },
+                        unmount: { opacity: 0, y: 250 },
                     }}
+                    className='mt-6 mb-6'
+
                 >
                     {data.map(({ value, items }) => (
                         <TabPanel key={value} value={value} className='flex justify-center'>
@@ -84,8 +91,7 @@ const CardTab = () => {
                                 ))}
                             </ul> */}
 
-
-                            <div className='relative ml-3 mr-3 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-auto px-2 mb-6 max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 flex justify-center'>
+                            <div className='relative w-full px-4 mb-6 max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 flex justify-center'>
                                 <style>
                                     {`
           .gradient-border {
@@ -157,17 +163,16 @@ const CardTab = () => {
                                 <p className=' text-white font-bold'>
                                     <ul>
                                         {items.map((item, index) => (
-                                            <li key={index} className='flex justify-center'>{item}</li>
+                                            <li key={index} className='flex justify-center py-1'>{item}</li>
                                         ))}
                                     </ul>
                                 </p>
                             </div>
-
-
                         </TabPanel>
                     ))}
                 </TabsBody>
-            </Tabs></div>
+            </Tabs>
+        </div>
     )
 }
 
