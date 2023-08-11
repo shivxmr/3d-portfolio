@@ -6,6 +6,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 import InfiniteScrollAnimation from "./components/Infinite Scroll Animation/InfiniteScrollAnimation";
 import Card from "./components/Card";
 import MacOSDockSection from "./components/MacOSDock/MacOSDockSection";
+import CardTab from './components/CardTab';
 // import Preloader from "./components/Preloader/Preloader";
 
 
@@ -41,7 +42,8 @@ const App = () => {
           <About />
           <Experience />
           <InfiniteScrollAnimation />
-          <Card />
+          <CardTab />
+          {/* <Card /> */}
           {/* <Tech /> */}
           <Works />
           {/* <Feedbacks /> */}
