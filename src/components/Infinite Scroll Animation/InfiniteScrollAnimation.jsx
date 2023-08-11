@@ -5,7 +5,7 @@ import AnimatedText from '../AnimatedText/AnimatedText';
 
 
 // const COLORS = ['#bbf7d0', '#99f6e4', '#bfdbfe', '#ddd6fe', '#f5d0fe', '#fed7aa', '#fee2e2'];
-const TAGS = ['React.js', 'JavaScript', 'TailWind CSS', 'MERN Stack Web Development', 'MongoDB', 'Node JS', 'Express', 'Python', 'Machine Learning', 'Java', 'Data Structures and Algorithms'];
+const TAGS = ['React.js', 'TypeScript', 'JavaScript', 'TailWindCSS', 'MERN Stack', 'MongoDB', 'Node JS', 'Express', 'Python', 'Machine Learning', 'Java'];
 
 
 const DURATION = 55000;

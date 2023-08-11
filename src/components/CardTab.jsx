@@ -6,6 +6,7 @@ import {
     Tab,
     TabPanel,
 } from "@material-tailwind/react";
+import { SectionWrapper } from '../hoc';
 
 const CardTab = () => {
 
@@ -176,4 +177,5 @@ const CardTab = () => {
     )
 }
 
-export default CardTab
+// export default CardTab
+export default SectionWrapper(CardTab, "skills");
