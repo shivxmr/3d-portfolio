@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@material-tailwind/react": "^2.1.0",
     "@react-three/drei": "^9.77.7",
     "@react-three/fiber": "^8.13.4",
     "emailjs": "^4.0.2",
