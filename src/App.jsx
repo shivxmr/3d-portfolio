@@ -6,6 +6,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 // import InfiniteScrollAnimation from "./components/Skills/InfiniteScrollAnimation";
 // import Card from "./components/Card";
 import MacOSDockSection from "./components/MacOSDock/MacOSDockSection";
+import BoxStackSection from './components/BoxStack/BoxStackSection';
 
 
 const App = () => {
@@ -18,13 +19,14 @@ const App = () => {
             <Navbar />
             <Hero />
           </div>
-          <About />
-          <Experience />
-          <Works />
-          {/* <Card /> */}
-          {/* <Tech /> */}
-          {/* <Feedbacks /> */}
           <div className='relative z-0'>
+            <About />
+            <BoxStackSection />
+            <Experience />
+            <Works />
+            {/* <Card /> */}
+            {/* <Tech /> */}
+            {/* <Feedbacks /> */}
             <StarsCanvas />
             {/* <InfiniteScrollAnimation /> */}
             <CardTab />
