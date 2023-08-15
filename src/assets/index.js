@@ -6,23 +6,7 @@ import close from "./close.svg";
 import freelance from "./freelance.jpg";
 import rv from "./rv.png";
 
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -40,10 +24,11 @@ import stockmarket from "./stockmarket.jpeg";
 import animazing from "./animazing.png";
 import chat from "./chat.png";
 import summarize from "./summarize.png";
-import fullstack from "./fullstack.svg";
-import frontend from "./frontend.svg";
-import python1 from "./python1.svg";
-import stockmarket1 from "./stockmarket1.svg";
+
+import fullstack from "./about/fullstack.svg";
+import frontend from "./about/frontend.svg";
+import stockmarket1 from "./about/stockmarket1.svg";
+import python1 from "./about/python1.svg";
 
 export {
   stockmarket1,
@@ -55,18 +40,13 @@ export {
   chat,
   stockmarket,
   logo,
-  creator,
-  mobile,
   s,
   freelance,
   rv,
-  web,
   github,
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -77,13 +57,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
   python,
-  tripguide,
   java,
 };
