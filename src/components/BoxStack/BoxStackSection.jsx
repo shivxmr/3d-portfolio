@@ -9,7 +9,8 @@ export default function BoxStackSection() {
     <Section color="bg-[#050816]">
       <Mobile
         // color="bg-[#ff7a00]"
-        color="bg-[#050816]"
+        // color="bg-[#050816]"
+        color="bg-black"
         align="items-center"
         justify="justify-center"
       >

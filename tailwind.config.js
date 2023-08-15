@@ -34,7 +34,7 @@ module.exports = withMT({
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('/src/assets/hero.jpg')",
       },
     },
   },

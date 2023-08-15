@@ -58,7 +58,8 @@ header p {
   position: relative;
   padding: 1.5rem 0;
   overflow: hidden;
-  background-color: #050816;
+  /* background-color: #050816;*/
+  background-color: #000000;
   /* background: #1d1836; */
 }
 
@@ -99,10 +100,10 @@ header p {
   pointer-events: none;
   background: linear-gradient(
     90deg,
-    #050816,
+    #000000,
     transparent 30%,
     transparent 70%,
-    #050816
+    #000000
   );
   position: absolute;
   inset: 0;

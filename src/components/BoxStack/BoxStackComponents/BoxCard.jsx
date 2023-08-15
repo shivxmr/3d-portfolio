@@ -8,7 +8,6 @@ import paperFlipSound from '../../../assets/paperFlipSound.mp3';
 import { fadeIn, textVariant } from '../../../utils/motion';
 import { styles } from '../../../styles';
 import { useSoundContext } from '../../../components/SoundToggle/soundContext.js';
-import AnimatedText from '../../AnimatedText/AnimatedText';
 
 export default function BoxCard({ drag, frontCard, index, setIndex }) {
   const isSoundMuted = useSoundContext();

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close, s } from "../assets";
+import { logo, menu, close, s, giphy } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <nav
       className={`${styles.paddingX
-        } w-full flex items-center py-5 fixed top-0 z-20 ${scrolled ? "bg-primary" : "bg-transparent"
+        } w-full flex items-center py-5 fixed top-0 z-20 ${scrolled ? "bg-black" : "bg-transparent"
         }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -41,7 +41,7 @@ const Navbar = () => {
             // this will scroll to top of page
           }}
         >
-          <img src={s} alt='logo' className='w-9 h-9 object-contain rounded-2xl' />
+          <img src={giphy} alt='logo' className='w-9 h-9 object-contain rounded-2xl' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Shivam Raj&nbsp;
             {/* <span className='sm:block hidden'> | JavaScript </span> */}

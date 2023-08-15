@@ -32,7 +32,10 @@ import frontend from "./about/frontend.svg";
 import stockmarket1 from "./about/stockmarket1.svg";
 import python1 from "./about/python1.svg";
 
+import giphy from "./giphy.gif";
+
 export {
+  giphy,
   stockmarket1,
   frontend,
   python1,

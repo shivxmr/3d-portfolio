@@ -11,8 +11,10 @@ const MacOSDockSection = () => {
     <>
       <Section align={'items-end'}>
         <div className="flex flex-col w-full items-center">
-          <div className="text-4xl mb-24 sm:mb-24 md:mb-36 lg:mb-40 xl:mb-48 2xl:mb-52">
-            <AnimatedText text={'Social Profiles'} />
+          <div className="text-5xl mb-24 sm:mb-24 md:mb-36 lg:mb-40 xl:mb-48 2xl:mb-52">
+            <AnimatedText
+              text={'Social Profiles'}
+            />
           </div>
 
           {/* For mobiles where this animation is not visible, please visit on a desktop or laptop for the best experience. */}
