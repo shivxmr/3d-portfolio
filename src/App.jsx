@@ -19,14 +19,14 @@ const App = () => {
             <Navbar />
             <Hero />
           </div>
+          <About />
+          <BoxStackSection />
+          <Experience />
+          <Works />
+          {/* <Card /> */}
+          {/* <Tech /> */}
+          {/* <Feedbacks /> */}
           <div className='relative z-0'>
-            <About />
-            <BoxStackSection />
-            <Experience />
-            <Works />
-            {/* <Card /> */}
-            {/* <Tech /> */}
-            {/* <Feedbacks /> */}
             <StarsCanvas />
             {/* <InfiniteScrollAnimation /> */}
             <CardTab />

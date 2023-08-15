@@ -1,6 +1,5 @@
 import {
   mobile,
-  backend,
   creator,
   web,
   javascript,
@@ -32,6 +31,10 @@ import {
   animazing,
   chat,
   summarize,
+  fullstack,
+  frontend,
+  python1,
+  stockmarket1,
 } from "../assets";
 
 export const navLinks = [
@@ -60,19 +63,19 @@ export const navLinks = [
 const services = [
   {
     title: "Full Stack Web Developer",
-    icon: web,
+    icon: fullstack,
   },
   {
     title: "Frontend Designer",
-    icon: backend,
+    icon: frontend,
   },
   {
     title: "Python Developer",
-    icon: mobile,
+    icon: python1,
   },
   {
     title: "Stock Market Enthusiast",
-    icon: creator,
+    icon: stockmarket1,
   },
 ];
 

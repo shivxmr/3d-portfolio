@@ -43,10 +43,8 @@ export default function BoxCard({ drag, frontCard, index, setIndex }) {
 
   return (
     <>
-
-
       <motion.div
-        className="w-72 h-72 absolute top-0 hover:cursor-grab active:cursor-grabbing"
+        className="w-80 h-80 absolute top-0 hover:cursor-grab active:cursor-grabbing"
         style={{
           x,
           rotate,
@@ -67,7 +65,7 @@ export default function BoxCard({ drag, frontCard, index, setIndex }) {
         }
       >
         <motion.div
-          className="w-72 h-72 bg-white rounded-3xl items-center justify-center flex shadow-card"
+          className="w-72 h-72 bg-light-blue-300 rounded-3xl items-center justify-center flex shadow-card"
           style={{
             scale,
           }}
@@ -83,13 +81,16 @@ export default function BoxCard({ drag, frontCard, index, setIndex }) {
               {serviceIndex === index % services.length && (
                 <>
                   <div
-                    className='text-black font-bold'
+                    className='text-black font-bold text-lg'
                   >
                     {service.title}
                   </div>
-                  <div>
+                  <div className=' mt-5 flex justify-center items-center'>
                     {/* Render the PNG icon as an image */}
-                    <img src={service.icon} alt={service.title} />
+                    <img src={service.icon} alt={service.title}
+                      width="150px"
+                      height="100px"
+                    />
                   </div>
                 </>
               )}

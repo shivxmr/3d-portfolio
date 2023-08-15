@@ -19,6 +19,8 @@
     "flowbite": "^1.8.1",
     "flowbite-react": "^0.5.0",
     "framer-motion": "^10.12.22",
+    "gsap": "^3.12.2",
+    "imagesloaded": "^5.0.0",
     "maath": "^0.7.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
